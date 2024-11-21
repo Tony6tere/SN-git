@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Secondaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #5b9bd5;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header h1, .header h2 {
+            margin: 5px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Alignement vertical */
+            align-items: flex-start; /* Alignement sur la gauche */
+            padding-left: 50px; /* Décalage vers la gauche */
+            padding-top: 30px;
+            gap: 40px; /* Grande séparation entre les boutons */
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ffffff;
+            border: 2px solid #5b9bd5;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #5b9bd5;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #a433A6;
+            color: white;
+            transform: scale(1.05); /* Animation légère au survol */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>GROUPE N°8</h1>
+        <h1>NOGO LEONARD</h1>
+    </div>
+    <div class="container">
+        <a href="#" class="button">Menu 3</a>
+        <a href="index.html" class="button">Retour page principale</a>
+    </div>
+</body>
+</html>
